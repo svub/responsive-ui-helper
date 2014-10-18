@@ -1,9 +1,9 @@
 {
-  "name": "Rotation Detector",
-  "description": "Keeps track of the rotation of the device and updates the html tag's class attribute and Meteor.isLandscapeMode.",
-  "homepage": "",
+  "name": "Responsive UI Helper",
+  "description": "Keeps track of device rotation and screen resolution and updates the html tag's class attribute and Meteor.responsive.* attibutes.",
+  "homepage": "https://github.com/svub/responsive-ui-helper",
   "author": "Sven Buschbeck",
-  "version": "1.0.0",
-  "git": "",
+  "version": "1.1.0",
+  "git": "https://github.com/svub/responsive-ui-helper.git"
   "packages": {}
 }

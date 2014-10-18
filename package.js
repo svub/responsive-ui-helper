@@ -1,11 +1,11 @@
 Package.describe({
-  summary: "Keeps track of the rotation of the device and updates the html tag's class attribute and Meteor.isLandscapeMode"
+  summary: "Keeps track of device rotation and screen resolution and updates the html tag's class attribute and Meteor.responsive.* attibutes."
 });
 
 Package.on_use(function (api, where) {
-  if(api.export) { api.export('rotationDetector'); }
-  
+  //if(api.export) { api.export('responsiveUiHelper'); }
+
   api.use(['underscore', 'coffeescript', 'meteor', 'jquery'], 'client');
-  api.add_files('rotation-detector.coffee', 'client');
+  api.add_files('responsive.coffee', 'client');
 
 });
