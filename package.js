@@ -6,6 +6,7 @@ Package.on_use(function (api, where) {
   //if(api.export) { api.export('responsiveUiHelper'); }
 
   api.use(['underscore', 'coffeescript', 'meteor', 'jquery'], 'client');
+  api.add_files('layoutEngine.js', 'client');
   api.add_files('responsive.coffee', 'client');
 
 });
