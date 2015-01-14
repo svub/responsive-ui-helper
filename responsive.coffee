@@ -1,20 +1,20 @@
 configurations =
   general:
-    resolution: -> Math.max screen.width, screen.height
+    resolution: -> Math.max window.innerWidth, window.innerHeight
     map:
       'low-res':  [0, 568]
       'mid-res':  [568, 1200]
       'high-res': [1200, 1919]
       'hd-res':   [1919]
   horizontal:
-    resolution: -> screen.width
+    resolution: -> window.innerWidth
     map:
       'x-low-res':  [0, 568]
       'x-mid-res':  [568, 1200]
       'x-high-res': [1200, 1919]
       'x-hd-res':   [1919]
   vertical:
-    resolution: -> screen.height
+    resolution: -> window.innerHeight
     map:
       'y-low-res':  [0, 568]
       'y-mid-res':  [568, 1200]
